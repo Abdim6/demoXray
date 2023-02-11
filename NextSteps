@@ -13,3 +13,5 @@ Après execution de mon test sur Jenkins, j'ai rencontré le même prob de mirro
 La solution trouvé est : renseigner le maven_home dans le paramétrage jenkins au lien d'installer automatiquement. 
 - faudra creuser l'interêt de renseigner le maven_home dans jenkins. 
 La connexion avec Xray depuis jenkins ne se fait pas quand je ne passe pas par github ... à voir si avec Github elle fonctionne
+	- En effet ça m'a l'air de fonctinner en utilisant Github mais j'ai un autre souci
+Probleme de format de reponse renocntré, message d'erreur d'importation vers xray : {"error":"Result is not format junit"}

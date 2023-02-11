@@ -20,4 +20,9 @@ public class Addition extends Division{
 	public void afficher2() {
 		System.out.println("Ceci est un test avec XRAY 2...");
 	}
+	@Test
+	@Xray(test = "MATH-14")
+	public void afficher3() {
+		System.out.println("Ceci est un test avec XRAY 2...");
+	}
 }
