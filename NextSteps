@@ -1,0 +1,15 @@
+Next step à réaliser 
+
+
+!! 
+doc erreur blocked : https://stackoverflow.com/questions/67833372/getting-blocked-mirror-for-repositories-maven-error-even-after-adding-mirrors
+faudra connaitre comment gérer le home maven sur mac
+
+le Setting de maven se trouve dans : /opt/homebrew/Cellar/maven/3.8.7/libexec/conf/settings.xml
+Maven_home = /opt/homebrew/Cellar/maven/3.8.7/libexec
+il est facile de recupérer ce lien via la commande mvn -version
+
+Après execution de mon test sur Jenkins, j'ai rencontré le même prob de mirror "blocked"
+La solution trouvé est : renseigner le maven_home dans le paramétrage jenkins au lien d'installer automatiquement. 
+- faudra creuser l'interêt de renseigner le maven_home dans jenkins. 
+La connexion avec Xray depuis jenkins ne se fait pas quand je ne passe pas par github ... à voir si avec Github elle fonctionne
