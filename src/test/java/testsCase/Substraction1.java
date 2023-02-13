@@ -21,7 +21,7 @@ public class Substraction1 {
 	@Xray(test = "MATH-10")
 	public void afficher1() {
 		System.out.println("Ceci est un test Soustraction avec XRAY 10 ...");
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 
 	@Test

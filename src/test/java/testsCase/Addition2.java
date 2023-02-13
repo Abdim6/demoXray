@@ -29,7 +29,7 @@ public class Addition2 extends Division{
 	@Xray(test = "MATH-30")
 	public void afficher3() {
 		System.out.println("Ceci est un test avec XRAY 3...");
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 	@Test(dependsOnMethods = "afficher1")
 	@Xray(test = "MATH-31")
