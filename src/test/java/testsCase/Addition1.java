@@ -15,7 +15,8 @@ public class Addition1 extends Division{
 	@Xray(test = "MATH-12")
 	public void afficher1() {
 		System.out.println("Ceci est un test avec XRAY 1...");
-		Assert.assertEquals(false, false);
+//		Assert.assertEquals(false, false);
+		Assert.assertTrue(true);
 	}
 
 	@Test
