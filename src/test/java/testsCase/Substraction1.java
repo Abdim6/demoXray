@@ -31,7 +31,7 @@ public class Substraction1 {
 		Assert.assertEquals(false, false);
 		
 	}
-	@Test(dependsOnMethods = "Substraction1")
+	@Test(dependsOnMethods = "afficher1")
 	@Xray(test = "MATH-09")
 	public void afficher3() {
 		System.out.println("Ceci est un test Soustraction avec XRAY 11...");
