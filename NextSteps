@@ -15,3 +15,23 @@ La solution trouvé est : renseigner le maven_home dans le paramétrage jenkins 
 La connexion avec Xray depuis jenkins ne se fait pas quand je ne passe pas par github ... à voir si avec Github elle fonctionne
 	- En effet ça m'a l'air de fonctinner en utilisant Github mais j'ai un autre souci
 Probleme de format de reponse renocntré, message d'erreur d'importation vers xray : {"error":"Result is not format junit"}
+
+Info exécution : une fois que l'exécution est faite, on recupère un code "key":"MATH-18", pour consulter l'executin, on dirait c'ets la clé de l'execution ..$	
+	- A creuser ce point . 
+
+	Next étapes :
+- Faudra analyser tout le processus et synthétiser avec des mots technique adéquat 
+- Décortiquer ce qui se passe vraiment, les échange et tous ...$
+- fais plusieurs suites de test sur xray par bloc de fonctionnalité
+- crée une execution sur xray ...
+- Fais en sorte des cdt et des scénarios et vois comment ça se comporte 
+- tout ça avec de la documentation et de webinar ...
+- créer un plan de test avant l'exécutin et puis deposer l'exécution de test auto dans le plan de test, c'est possible?
+
+
+	Next étape :
+- revue sur mes notes liées à la redaction de cdt dans xray/jira
+- Faudra visionner des vidéo/webinar sur la redaction de cdt dans xray / jira 
+- Gestion de cdt 
+- Ajute un gitIgnore dans ce projet
+
