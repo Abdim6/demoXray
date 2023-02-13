@@ -16,17 +16,26 @@ import com.xpandit.testng.annotations.Xray;
  * avec un rapport 
  * avec parallel
  */
-public class Substraction {
+public class Substraction1 {
 	@Test
 	@Xray(test = "MATH-10")
 	public void afficher1() {
 		System.out.println("Ceci est un test Soustraction avec XRAY 10 ...");
+		Assert.assertEquals(true, false);
 	}
 
 	@Test
 	@Xray(test = "MATH-11")
 	public void afficher2() {
 		System.out.println("Ceci est un test Soustraction avec XRAY 11...");
+		Assert.assertEquals(false, false);
+		
+	}
+	@Test(dependsOnMethods = "Substraction1")
+	@Xray(test = "MATH-09")
+	public void afficher3() {
+		System.out.println("Ceci est un test Soustraction avec XRAY 11...");
+		Assert.assertEquals(true, true);
 		
 	}
 }
